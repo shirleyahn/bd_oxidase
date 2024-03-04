@@ -1,0 +1,144 @@
+BBA,1834,(2013),1722: Force field modifcations for all-atom heme /parametros Dario
+
+MASS
+N0 14.01         0.530               Sp2 N in non-pure aromatic systems (heme b558 NP)
+N9 14.01         0.530               Sp2 N in non-pure aromatic systems (heme b558 NO)
+NZ 14.01         0.530               Sp2 N in non-pure aromatic systems (heme b595 NP)
+NY 14.01         0.530               Sp2 N in non-pure aromatic systems (heme b595 NO)
+N5 14.01         0.530               Sp2 N in non-pure aromatic systems (heme d NO)
+N6 14.01         0.530               Sp2 N in non-pure aromatic systems (heme d NP)
+Y4 14.01         0.530               Sp2 N in non-pure aromatic systems (heme d spirolactone ring)
+CY 12.0
+CX 12.0
+CD 12.0
+
+BOND
+N0-CC  316.000     1.38400
+N9-CC  316.000     1.38400
+NZ-CC  316.000     1.38400
+NY-CC  316.000     1.38400
+N5-CC  316.000     1.38400
+N6-CC  316.000     1.38400
+CC-CB  273.000     1.44400
+CC-CD  391.000     1.39100
+CB-CB  418.000     1.35700
+CB-CT  297.000     1.50100
+CB-CY  297.000     1.50100
+CD-HC  338.000     1.09000
+CY-HC  340.000     1.08000
+CX-HC  340.000     1.08000
+CY-CX  570.000     1.34000
+Y4-ce  406.9    1.3942      SOURCE3_SOURCE5      69      0.0151
+Y4-cf  564.4    1.2964         CORR_SOURCE5     101      0.0097
+CT-c3  300.9    1.5375      SOURCE1_SOURCE5   88072      0.0058
+CD-ce  460.7    1.4042      SOURCE1_SOURCES              0.0076
+CD-cf  460.7    1.4042      SOURCE1_SOURCES              0.0076
+
+ANGLE
+N9-CC-CB    70.000     110.300
+N0-CC-CB    70.000     110.300
+N9-CC-CD    70.000     125.500
+N0-CC-CD    70.000     125.500
+CC-N0-CC    70.000     105.400
+CC-N9-CC    70.000     105.400
+NY-CC-CB    70.000     110.300
+NZ-CC-CB    70.000     110.300
+NY-CC-CD    70.000     125.500
+NZ-CC-CD    70.000     125.500
+CC-NZ-CC    70.000     105.400
+CC-NY-CC    70.000     105.400
+N5-CC-CB    70.000     110.300
+N6-CC-CB    70.000     110.300
+N5-CC-CD    70.000     125.500
+N6-CC-CD    70.000     125.500
+CC-N6-CC    70.000     105.400
+CC-N5-CC    70.000     105.400
+CC-CB-CB    70.000     107.000
+CC-CD-CC    70.000     124.100
+CB-CC-CD    70.000     125.400
+CC-CB-CT    70.000     124.900
+CB-CB-CT    70.000     128.200
+CC-CD-HC    30.000     118.000
+CB-CT-HC    35.000     109.500
+CB-CT-H1    35.000     109.500   
+CB-CB-CY    70.000     128.200
+CB-CY-HC    35.000     120.000
+CB-CY-CX    70.000     120.000
+CY-CX-HC    35.000     120.000
+CC-CB-CY    70.000     124.900
+CX-CY-HC    35.000     120.000
+CB-CT-CT    63.000     114.000
+HC-CX-HC    35.000     120.000
+HO-OH-HO    60.000     134.000 
+OH-C-OH     80.000     120.000
+Y4-ce-c3    66.4      116.23              SOURCE5            5    1.2988
+Y4-ce-ce   68.600     120.790   same as ce-ce-nf, penalty score=  0.4
+Y4-cf-c3    66.9      120.68      SOURCE4_SOURCE5            7    2.0560
+Y4-cf-cf    68.6      120.79              SOURCE5            9    1.8014
+cf-Y4-ce   66.200     121.710   same as ca-ne-cf, penalty score=  2.2
+cf-CD-HC    48.5      117.44                                      1.1566
+c3-CT-HC    46.3      109.80      SOURCE3_SOURCE5       179054    0.7972
+ce-CD-HC    49.8      118.22         CORR_SOURCE5         1522    1.3445
+CC-CD-ce    64.6      126.14         CORR_SOURCE5          122    1.8142
+CT-c3-oh    67.5      110.19      SOURCE3_SOURCE5        10188    1.4761
+CT-c3-ce    63.5      110.92         CORR_SOURCE5         1159    1.8552
+CT-c3-c3    62.9      111.51      SOURCE3_SOURCE5        61999    1.8007
+CD-ce-c3    63.7      119.75         CORR_SOURCES                 1.7771
+c3-cf-CD    63.7      119.75         CORR_SOURCES                 1.7771
+CC-CD-cf    64.7      125.25         CORR_SOURCE5                 1.6363
+Y4-ce-CD    68.600    120.790   same as ce-ce-nf, penalty score=  0.4
+Y4-cf-CD    68.6      120.79              SOURCE5            9    1.8014
+
+DIHEDRAL
+X -N9-CC-X    4       5.700     180.000       2.000
+X -N0-CC-X    4       5.700     180.000       2.000
+X -NY-CC-X    4       5.700     180.000       2.000
+X -NZ-CC-X    4       5.700     180.000       2.000
+X -N5-CC-X    4       5.700     180.000       2.000
+X -N6-CC-X    4       5.700     180.000       2.000
+X -CC-CB-X    4       3.150     180.000       2.000
+X -CB-CB-X    4      21.500     180.000       2.000
+X -CD-CC-X    4       7.900     180.000       2.000
+X -CB-CT-X    1       0.000     180.000       2.000
+X -CB-CY-X    4       0.000     180.000       2.000
+X -CY-CX-X    4      30.000     180.000       2.000
+X -Y4-ce-X     2        1.6      180.0   2.0      single bond
+Y4-ce-c3-c3    6        0.0        0.0   3.0      same as X -c3-cc-X , penalty score=136.0
+Y4-ce-c3-oh    6        0.0        0.0   3.0      same as X -c3-cc-X , penalty score=136.0
+Y4-cf-c3-os    6        0.0        0.0   3.0      same as X -c3-cd-X , penalty score=136.0
+c3-c3-cf-Y4    6        0.0        0.0   3.0      same as X -c3-cd-X , penalty score=136.0
+c3-cf-Y4-ce    2        1.6      180.0   2.0      same as X -cf-nf-X , penalty score=138.0
+cf-cf-Y4-ce    2        1.6      180.0   2.0      same as X -cf-nf-X , penalty score=138.0
+HC-CT-c3-c3    1       0.16        0.0   3.     Junmei et al, 1999
+X -cf-CD-X     4      4.000    180.000   2.0      c2-c2 single bond, parm99
+X -ce-CD-X     4      4.000    180.000   2.0      c2-c2 single bond, parm99
+X -c3-CT-X     9      1.400      0.000   3.0      JCC,7,(1986),230
+CD-cf-Y4-ce    2        1.6      180.0   2.0      same as X -cf-nf-X , penalty score=138.0
+X -c3-ce-X     6      0.000      0.000   3.00     same as X-c3-ca-X
+X -c3-cf-X     6      0.000      0.000   3.00     same as X-c3-ca-X
+
+IMPROPER
+X -X -CC-X    0       1.000     180.000       2.000
+X -X -CB-X    0       1.000     180.000       2.000
+X -X -N0-X    0       1.000     180.000       2.000
+X -X -N9-X    0       1.000     180.000       2.000
+X -X -NZ-X    0       1.000     180.000       2.000
+X -X -NY-X    0       1.000     180.000       2.000
+X -X -N5-X    0       1.000     180.000       2.000
+X -X -N6-X    0       1.000     180.000       2.000
+X -X -OH-HO   0       1.000     180.000       2.000
+CT-OH-C-OH    0       10.5      180.000       2.000
+Y4-c3-ce-ce           1.1       180.000       2.000          Using the default value
+Y4-c3-cf-cf           1.1       180.000       2.000          Using the default value
+
+NONBON
+  N0         1.8240    0.1700    0.0
+  N9         1.8240    0.1700    0.0
+  NZ         1.8240    0.1700    0.0
+  NY         1.8240    0.1700    0.0
+  N5         1.8240    0.1700    0.0
+  N6         1.8240    0.1700    0.0
+  Y4         1.8240    0.1700    0.0
+  CX         1.9080    0.0860    0.0
+  CY         1.9080    0.0860    0.0
+

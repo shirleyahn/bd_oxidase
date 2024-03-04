@@ -1,0 +1,42 @@
+# AmberTools leap script to generate
+# Amber prmtop and inpcrd MD files
+
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+source leaprc.lipid17
+
+loadamberparams frcmod.ions1lm_126_tip3p
+MQ9 = loadmol2 menaquinone.mol2
+loadamberparams menaquinone.frcmod
+
+loadoff heme.lib
+loadamberparams heme.frcmod
+loadamberparams mcpbpy.frcmod
+
+protein = loadpdb combined_renum.pdb
+
+bond protein.344.CA protein.494.CB1
+bond protein.185.CA protein.494.CB
+bond protein.492.CA protein.494.C2A
+bond protein.493.CA protein.494.C3D
+
+bond protein.396.CA protein.491.CB
+bond protein.489.CA protein.491.C2A
+bond protein.490.CA protein.491.C3D
+
+bond protein.18.CA protein.488.CB
+bond protein.487.CA protein.488.C2A
+
+check protein
+#savepdb protein protein.pdb
+#saveamberparm protein protein.prmtop protein.rst7
+
+#solvatebox protein TIP3PBOX 15.0
+addions protein Na+ 0
+addions protein Cl- 0
+#addions protein Na+ 94
+#addions protein Cl- 94
+setbox protein vdw
+savepdb protein protein_solv.pdb
+saveamberparm protein protein_solv.prmtop protein_solv.rst7
+quit
