@@ -1,0 +1,3 @@
+Oxygen conducting channel starts from Trp 64.B, which is Trp 558 in Amber numbering
+
+Ends at Glu 98.A, which is Glh 98 in Amber numbering

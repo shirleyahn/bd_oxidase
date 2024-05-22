@@ -1,0 +1,3 @@
+These are the residue numbers (in Amber numbering though, not the original numbering) that I used for the generated clusters:
+
+Mtb's Q-loop: alpha carbons of atom numbers 3944-5155 or 3944-5157 (for the one with disulfide bond broken) (residue numbers 256-333)

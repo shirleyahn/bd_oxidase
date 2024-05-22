@@ -1,0 +1,5 @@
+These are the residue numbers (in Amber numbering though, not the original numbering) that I used for the generated clusters:
+
+Mtb's between QC and PL8 region: alpha carbons of atom numbers 4757-5155, 6219-6553 or 4759-5157, 6221-6555 (for the one with disulfide bond broken) (residue numbers 310-333, 400-420)
+
+PL8, a large periplasmic loop connecting transmembrane helices 8 and 9

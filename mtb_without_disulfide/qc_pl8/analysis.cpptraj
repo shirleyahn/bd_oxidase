@@ -1,0 +1,17 @@
+parm ../protein.prmtop
+trajin ../prod.nc
+trajin ../../gamd/dihedral_lower/md3.nc
+trajin ../../gamd/dihedral_upper/md4.nc
+trajin ../../gamd/dual_lower/md5.nc
+trajin ../../gamd/dual_upper/md6.nc
+trajin ../../gamd/total_lower/md.nc
+trajin ../../gamd/total_upper/md2.nc
+
+autoimage
+
+cluster c1 dbscan kdist 1 rms :310-333,400-420&@CA sieve 10 random
+cluster c2 dbscan kdist 2 rms :310-333,400-420&@CA sieve 10 random
+cluster c3 dbscan kdist 3 rms :310-333,400-420&@CA sieve 10 random
+cluster c4 dbscan kdist 4 rms :310-333,400-420&@CA sieve 10 random
+cluster c5 dbscan kdist 5 rms :310-333,400-420&@CA sieve 10 random
+cluster c6 dbscan kdist 6 rms :310-333,400-420&@CA sieve 10 random
