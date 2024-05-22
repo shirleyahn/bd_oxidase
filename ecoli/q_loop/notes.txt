@@ -1,0 +1,3 @@
+These are the residue numbers (in Amber numbering though, not the original numbering) that I used for the generated clusters:
+
+E. coli's Q-loop: alpha carbons of atom numbers 4148-6245 (residue numbers 258-390)

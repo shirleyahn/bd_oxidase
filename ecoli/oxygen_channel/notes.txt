@@ -1,0 +1,1 @@
+Oxygen conducting channel starts from Trp 63.B, which is Trp 606 in Amber numbering
